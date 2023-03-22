@@ -7,5 +7,9 @@ int main(void)
 	int a = 10, b = 3, c = 0;
 	mult(a,b,&c);
 	printf("Mult: %d \n",c);
+	char name[] = "Hola Mundo";
+	message(name,sizeof(name));
+	
+
 	return 0;
 }
